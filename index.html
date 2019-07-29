@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>Beeswarm Elenchi</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="He was always nice: an exploration on the history of mass shootings in the US, from 1966 to 2018.">
+  <meta name="author" content="Andrea Benedetti, Beatrice Gobbo, Giacomo Flaim">
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,700" rel="stylesheet">
+  <link rel="icon" type="image/png" href="images/favicon-3.png"/>
+</head>
+
+<body>
+
+  <div class="loader">
+    <!-- <div class="dot"></div>
+      <div class="dot-a"></div> -->
+    </div>
+
+  <!-- <nav id="nav">
+    <div class="open">sections</div>
+    <a href="#highlight"><div class="nav-link">What</div></a>
+    <a href="#location"><div class="nav-link">Where</div></a>
+    <a href="#shootings"><div class="nav-link">How</div></a>
+    <a href="#legislations"><div class="nav-link">When</div></a>
+    <a href="#killingbees"><div class="nav-link">Who</div></a>
+  </nav> -->
+
+
+
+      <section id="killingbees" class="container-fluid">
+        <div class="container">
+          <div class="row">
+              <div id="tooltip"></div>
+              <div id="killingbees-ui" class="offset-lg-2 col-lg-8">
+            </div>
+          </div>
+          <div class="row">
+            <div id="legend" class="col-6">
+              <h6>Tipo di elenco</h6>
+              <p class="misto">misto</p>
+              <p class="frasi">frasi</p>
+              <p class="sintagma">sintagmi</p>
+              <p class="parole">parole</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="conclusion">
+        <div class="container">
+          <div class="row">
+            <div class="offset-lg-2 col-lg-8">
+              
+            </div>
+          </div>
+        </div>
+      </section>
+    </content>
+    <!-- <div id="alert" class="d-sm-none"><h4>For the best experience of this website, a tablet or computer is best suited.</h4></div> -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/topojson.v2.min.js"></script>
+    <script src="https://d3js.org/d3-ease.v1.min.js"></script>
+
+    <script src="https://d3js.org/d3-scale-chromatic.v0.3.min.js"></script>
+    <script src="js/killingbees.js"></script>
+    <script>
+      $(window).on("load", function() {
+        $(".loader").fadeOut("slow");
+      });
+
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+          });
+        });
+      });
+
+      var h = 25;
+
+      $("#intro").height( window.innerHeight - 20 );
+      $("#intro-2").height( window.innerHeight );
+      $(".bills-tooltip").height( 0 );
+
+      $("#nav").height(h);
+      $(".nav-link").addClass("disabled");
+
+      $(".open").mouseover(function() {
+        console.log("hover")
+        h = 40
+        $("#nav").animate({
+          height: h
+        }, 600, "easeInOutExpo" );
+
+        setTimeout(function(){
+
+          if ( h == 40 ){
+            console.log("ok")
+            h = 25
+            $("#nav").animate({
+              height: h
+            }, 300, "easeInOutExpo" );
+          } else {
+            h == h;
+          }
+        }, 3000)
+      })
+
+      $(".open").click(function() {
+        h = 60;
+        console.log("exp")
+        $("#nav").animate({
+          height: h
+        }, 600, "easeInOutExpo" );
+
+        $(".open").fadeOut(400).addClass("disabled");
+
+        $(".nav-link").fadeIn(800).removeClass("disabled");
+
+      })
+
+      $(".nav-link").click(function() {
+        h = 25
+        console.log("shr")
+        $("#nav").animate({
+          height: h
+        }, 300, "easeInOutExpo" );
+
+        $(".nav-link").fadeOut().addClass("disabled");
+
+        $(".open").delay(400).fadeIn(400).removeClass("disabled");
+      })
+
+      $(document).scroll(function () {
+        var y = $(this).scrollTop();
+        if (y > 300) {
+          $('#top').fadeIn();
+        } else {
+          $('#top').fadeOut();
+        }
+
+      });
+
+    </script>
+  </body>
+
+  </html>

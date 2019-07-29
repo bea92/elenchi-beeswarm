@@ -1,0 +1,545 @@
+id,value,location,kills,health,title
+1,1943,S002,0,frasi,Dieci soldi in plastilina
+2,1943,S002,0,misto,Dieci soldi in plastilina
+3,1943,S002,1,parole,Dieci soldi in plastilina
+4,1943,S002,3,sintagmi,Dieci soldi in plastilina
+5,1945,S004,6,frasi,Angoscia in caserma
+6,1945,S004,1,misto,Angoscia in caserma
+7,1945,S004,4,parole,Angoscia in caserma
+8,1945,S004,8,sintagmi,Angoscia in caserma
+9,1946,S006,2,frasi,Di padre in figlio
+10,1946,S006,0,misto,Di padre in figlio
+11,1946,S006,0,parole,Di padre in figlio
+12,1946,S006,0,sintagmi,Di padre in figlio
+13,1946,S007,2,frasi,Paura sul sentiero
+14,1946,S007,1,misto,Paura sul sentiero
+15,1946,S007,0,parole,Paura sul sentiero
+16,1946,S007,1,sintagmi,Paura sul sentiero
+17,1946,S008,0,frasi,E il settimo si riposò
+18,1946,S008,1,misto,E il settimo si riposò
+19,1946,S008,1,parole,E il settimo si riposò
+20,1946,S008,2,sintagmi,E il settimo si riposò
+21,1946,S009,0,frasi,Uomo nei gerbidi
+22,1946,S009,0,misto,Uomo nei gerbidi
+23,1946,S009,1,parole,Uomo nei gerbidi
+24,1946,S009,1,sintagmi,Uomo nei gerbidi
+25,1946,S010,1,frasi,Campo di mine
+26,1946,S010,1,misto,Campo di mine
+27,1946,S010,0,parole,Campo di mine
+28,1946,S010,1,sintagmi,Campo di mine
+29,1946,S011,3,frasi,I fratelli Bagnasco
+30,1946,S011,0,misto,I fratelli Bagnasco
+31,1946,S011,0,parole,I fratelli Bagnasco
+32,1946,S011,1,sintagmi,I fratelli Bagnasco
+33,1946,S012,0,frasi,Ragionamento del cugino
+34,1946,S012,1,misto,Ragionamento del cugino
+35,1946,S012,1,parole,Ragionamento del cugino
+36,1946,S012,0,sintagmi,Ragionamento del cugino
+37,1946,S013,3,frasi,Cinque dopodomani: guerra finita!
+38,1946,S013,0,misto,Cinque dopodomani: guerra finita!
+39,1946,S013,1,parole,Cinque dopodomani: guerra finita!
+40,1946,S013,1,sintagmi,Cinque dopodomani: guerra finita!
+41,1947,S014,0,frasi,Alba sui rami nudi
+42,1947,S014,0,misto,Alba sui rami nudi
+43,1947,S014,0,parole,Alba sui rami nudi
+44,1947,S014,1,sintagmi,Alba sui rami nudi
+45,1947,S015,3,frasi,Come non fui Noè (Buon a nulla)
+46,1947,S015,0,misto,Come non fui Noè (Buon a nulla)
+47,1947,S015,0,parole,Come non fui Noè (Buon a nulla)
+48,1947,S015,0,sintagmi,Come non fui Noè (Buon a nulla)
+49,1947,S016,1,frasi,Ultimo viene il corvo
+50,1947,S016,0,misto,Ultimo viene il corvo
+51,1947,S016,2,parole,Ultimo viene il corvo
+52,1947,S016,1,sintagmi,Ultimo viene il corvo
+53,1947,S017,0,frasi,Visti alla mensa
+54,1947,S017,1,misto,Visti alla mensa
+55,1947,S017,0,parole,Visti alla mensa
+56,1947,S017,0,sintagmi,Visti alla mensa
+57,1947,S018,4,frasi,L'occhio del padrone
+58,1947,S018,0,misto,L'occhio del padrone
+59,1947,S018,0,parole,L'occhio del padrone
+60,1947,S018,0,sintagmi,L'occhio del padrone
+61,1947,S019,3,frasi,Come un volo d'anitre
+62,1947,S019,0,misto,Come un volo d'anitre
+63,1947,S019,1,parole,Come un volo d'anitre
+64,1947,S019,0,sintagmi,Come un volo d'anitre
+65,1947,S020,0,frasi,La fame a Bévera
+66,1947,S020,0,misto,La fame a Bévera
+67,1947,S020,0,parole,La fame a Bévera
+68,1947,S020,1,sintagmi,La fame a Bévera
+69,1947,S021,0,frasi,Furto in una pasticceria
+70,1947,S021,0,misto,Furto in una pasticceria
+71,1947,S021,1,parole,Furto in una pasticceria
+72,1947,S021,1,sintagmi,Furto in una pasticceria
+73,1947,S022,0,frasi,Un bastimento carico di granchi
+74,1947,S022,0,misto,Un bastimento carico di granchi
+75,1947,S022,1,parole,Un bastimento carico di granchi
+76,1947,S022,1,sintagmi,Un bastimento carico di granchi
+77,1948,S023,2,frasi,I figli poltroni
+78,1948,S023,1,misto,I figli poltroni
+79,1948,S023,1,parole,I figli poltroni
+80,1948,S023,0,sintagmi,I figli poltroni
+81,1948,S024,0,frasi,Il giardino incantato
+82,1948,S024,0,misto,Il giardino incantato
+83,1948,S024,0,parole,Il giardino incantato
+84,1948,S024,1,sintagmi,Il giardino incantato
+85,1948,S025,2,frasi,Impiccagione di un giudice
+86,1948,S025,0,misto,Impiccagione di un giudice
+87,1948,S025,1,parole,Impiccagione di un giudice
+88,1948,S025,3,sintagmi,Impiccagione di un giudice
+89,1948,S026,2,frasi,Il bosco degli animali
+90,1948,S026,0,misto,Il bosco degli animali
+91,1948,S026,0,parole,Il bosco degli animali
+92,1948,S026,0,sintagmi,Il bosco degli animali
+93,1948,S028,0,frasi,Com'era grande il mare
+94,1948,S028,0,misto,Com'era grande il mare
+95,1948,S028,1,parole,Com'era grande il mare
+96,1948,S028,0,sintagmi,Com'era grande il mare
+97,1948,S029,1,frasi,Il gatto e il poliziotto
+98,1948,S029,0,misto,Il gatto e il poliziotto
+99,1948,S029,0,parole,Il gatto e il poliziotto
+100,1948,S029,0,sintagmi,Il gatto e il poliziotto
+101,1948,S030,1,frasi,Pranzo con un pastore
+102,1948,S030,0,misto,Pranzo con un pastore
+103,1948,S030,0,parole,Pranzo con un pastore
+104,1948,S030,0,sintagmi,Pranzo con un pastore
+105,1948,S031,0,frasi,Voglia di mare
+106,1948,S031,0,misto,Voglia di mare
+107,1948,S031,1,parole,Voglia di mare
+108,1948,S031,1,sintagmi,Voglia di mare
+109,1948,S032,2,frasi,Isabella e Fioravanti
+110,1948,S032,0,misto,Isabella e Fioravanti
+111,1948,S032,2,parole,Isabella e Fioravanti
+112,1948,S032,0,sintagmi,Isabella e Fioravanti
+113,1948,S033,0,frasi,Chi ha messo la mina nel mare?
+114,1948,S033,0,misto,Chi ha messo la mina nel mare?
+115,1948,S033,0,parole,Chi ha messo la mina nel mare?
+116,1948,S033,2,sintagmi,Chi ha messo la mina nel mare?
+117,1948,S034,3,frasi,Dollari e vecchie mondane
+118,1948,S034,0,misto,Dollari e vecchie mondane
+119,1948,S034,0,parole,Dollari e vecchie mondane
+120,1948,S034,0,sintagmi,Dollari e vecchie mondane
+121,1949,S035,2,frasi,Freddo a Napoli
+122,1949,S035,0,misto,Freddo a Napoli
+123,1949,S035,1,parole,Freddo a Napoli
+124,1949,S035,1,sintagmi,Freddo a Napoli
+125,1949,S036,1,frasi,Lasciare Anna
+126,1949,S036,0,misto,Lasciare Anna
+127,1949,S036,1,parole,Lasciare Anna
+128,1949,S036,2,sintagmi,Lasciare Anna
+129,1949,S037,1,frasi,"Un pomeriggio, Adamo"
+130,1949,S037,0,misto,"Un pomeriggio, Adamo"
+131,1949,S037,0,parole,"Un pomeriggio, Adamo"
+132,1949,S037,0,sintagmi,"Un pomeriggio, Adamo"
+133,1949,S038,0,frasi,La casa degli alveari
+134,1949,S038,0,misto,La casa degli alveari
+135,1949,S038,0,parole,La casa degli alveari
+136,1949,S038,3,sintagmi,La casa degli alveari
+137,1949,S039,1,frasi,La stessa cosa del sangue
+138,1949,S039,1,misto,La stessa cosa del sangue
+139,1949,S039,0,parole,La stessa cosa del sangue
+140,1949,S039,1,sintagmi,La stessa cosa del sangue
+141,1949,S041,0,frasi,Uno dei tre è ancora vivo
+142,1949,S041,0,misto,Uno dei tre è ancora vivo
+143,1949,S041,1,parole,Uno dei tre è ancora vivo
+144,1949,S041,0,sintagmi,Uno dei tre è ancora vivo
+145,1949,S043,2,frasi,Desiderio in novembre
+146,1949,S043,0,misto,Desiderio in novembre
+147,1949,S043,0,parole,Desiderio in novembre
+148,1949,S043,1,sintagmi,Desiderio in novembre
+149,1950,S044,2,frasi,Lettera ad Amelia sui dischi volanti
+150,1950,S044,0,misto,Lettera ad Amelia sui dischi volanti
+151,1950,S044,0,parole,Lettera ad Amelia sui dischi volanti
+152,1950,S044,0,sintagmi,Lettera ad Amelia sui dischi volanti
+153,1950,S045,1,frasi,Storia del soldato che portò il cannone a casa
+154,1950,S045,1,misto,Storia del soldato che portò il cannone a casa
+155,1950,S045,0,parole,Storia del soldato che portò il cannone a casa
+156,1950,S045,0,sintagmi,Storia del soldato che portò il cannone a casa
+157,1950,S046,1,frasi,"Pesci grossi, pesci piccoli"
+158,1950,S046,0,misto,"Pesci grossi, pesci piccoli"
+159,1950,S046,1,parole,"Pesci grossi, pesci piccoli"
+160,1950,S046,2,sintagmi,"Pesci grossi, pesci piccoli"
+161,1950,S047,0,frasi,Cimitero di biciclette
+162,1950,S047,0,misto,Cimitero di biciclette
+163,1950,S047,1,parole,Cimitero di biciclette
+164,1950,S047,0,sintagmi,Cimitero di biciclette
+165,1950,S048,2,frasi,Mai nessuno degli uomini lo seppe
+166,1950,S048,1,misto,Mai nessuno degli uomini lo seppe
+167,1950,S048,0,parole,Mai nessuno degli uomini lo seppe
+168,1950,S048,1,sintagmi,Mai nessuno degli uomini lo seppe
+169,1951,S049,1,frasi,Il reggimento smarrito
+170,1951,S049,1,misto,Il reggimento smarrito
+171,1951,S049,0,parole,Il reggimento smarrito
+172,1951,S049,1,sintagmi,Il reggimento smarrito
+173,1951,S050,7,frasi,L'avventura di una bagnante
+174,1951,S050,0,misto,L'avventura di una bagnante
+175,1951,S050,0,parole,L'avventura di una bagnante
+176,1951,S050,1,sintagmi,L'avventura di una bagnante
+177,1952,S052,3,frasi,Un bel gioco dura poco
+178,1952,S052,0,misto,Un bel gioco dura poco
+179,1952,S052,1,parole,Un bel gioco dura poco
+180,1952,S052,0,sintagmi,Un bel gioco dura poco
+181,1952,S053,0,frasi,Funghi in città
+182,1952,S053,1,misto,Funghi in città
+183,1952,S053,1,parole,Funghi in città
+184,1952,S053,1,sintagmi,Funghi in città
+185,1952,S054,6,frasi,La formica argentina
+186,1952,S054,1,misto,La formica argentina
+187,1952,S054,0,parole,La formica argentina
+188,1952,S054,9,sintagmi,La formica argentina
+189,1952,S055,1,frasi,Il piccione comunale
+190,1952,S055,0,misto,Il piccione comunale
+191,1952,S055,0,parole,Il piccione comunale
+192,1952,S055,1,sintagmi,Il piccione comunale
+193,1952,S056,2,frasi,La pietanziera
+194,1952,S056,0,misto,La pietanziera
+195,1952,S056,0,parole,La pietanziera
+196,1952,S056,0,sintagmi,La pietanziera
+197,1952,S057,2,frasi,Gli occhi del nemico
+198,1952,S057,0,misto,Gli occhi del nemico
+199,1952,S057,0,parole,Gli occhi del nemico
+200,1952,S057,0,sintagmi,Gli occhi del nemico
+201,1952,S059,4,frasi,La ragazza licenziata
+202,1952,S059,1,misto,La ragazza licenziata
+203,1952,S059,0,parole,La ragazza licenziata
+204,1952,S059,0,sintagmi,La ragazza licenziata
+205,1953,S060,2,frasi,Le disgrazie di un paese
+206,1953,S060,0,misto,Le disgrazie di un paese
+207,1953,S060,2,parole,Le disgrazie di un paese
+208,1953,S060,0,sintagmi,Le disgrazie di un paese
+209,1953,S061,0,frasi,Il bosco sull'autostrada
+210,1953,S061,0,misto,Il bosco sull'autostrada
+211,1953,S061,1,parole,Il bosco sull'autostrada
+212,1953,S061,0,sintagmi,Il bosco sull'autostrada
+213,1953,S063,4,frasi,La storia di Kim-Ghi-U
+214,1953,S063,1,misto,La storia di Kim-Ghi-U
+215,1953,S063,2,parole,La storia di Kim-Ghi-U
+216,1953,S063,0,sintagmi,La storia di Kim-Ghi-U
+217,1953,S064,2,frasi,Paese infido
+218,1953,S064,1,misto,Paese infido
+219,1953,S064,1,parole,Paese infido
+220,1953,S064,1,sintagmi,Paese infido
+221,1953,S065,6,frasi,Gli avanguardisti a Mentone
+222,1953,S065,2,misto,Gli avanguardisti a Mentone
+223,1953,S065,3,parole,Gli avanguardisti a Mentone
+224,1953,S065,4,sintagmi,Gli avanguardisti a Mentone
+225,1953,S066,1,frasi,L'aria buona
+226,1953,S066,0,misto,L'aria buona
+227,1953,S066,0,parole,L'aria buona
+228,1953,S066,1,sintagmi,L'aria buona
+229,1949,S067,4,frasi,L'entrata in guerra
+230,1949,S067,1,misto,L'entrata in guerra
+231,1949,S067,3,parole,L'entrata in guerra
+232,1949,S067,6,sintagmi,L'entrata in guerra
+233,1953,S068,2,frasi,L'avventura di un impiegato
+234,1953,S068,1,misto,L'avventura di un impiegato
+235,1953,S068,0,parole,L'avventura di un impiegato
+236,1953,S068,2,sintagmi,L'avventura di un impiegato
+237,1953,S069,1,frasi,Un paese disgraziato
+238,1953,S069,0,misto,Un paese disgraziato
+239,1953,S069,1,parole,Un paese disgraziato
+240,1953,S069,0,sintagmi,Un paese disgraziato
+241,1953,S070,0,frasi,Il generale in biblioteca
+242,1953,S070,1,misto,Il generale in biblioteca
+243,1953,S070,1,parole,Il generale in biblioteca
+244,1953,S070,1,sintagmi,Il generale in biblioteca
+245,1954,S071,1,frasi,La fabbrica nella montagna
+246,1954,S071,0,misto,La fabbrica nella montagna
+247,1954,S071,0,parole,La fabbrica nella montagna
+248,1954,S071,1,sintagmi,La fabbrica nella montagna
+249,1954,S072,5,frasi,Le notti dell'UNPA
+250,1954,S072,0,misto,Le notti dell'UNPA
+251,1954,S072,1,parole,Le notti dell'UNPA
+252,1954,S072,4,sintagmi,Le notti dell'UNPA
+253,1954,S073,3,frasi,La bomba addormentata nel bosco
+254,1954,S073,0,misto,La bomba addormentata nel bosco
+255,1954,S073,1,parole,La bomba addormentata nel bosco
+256,1954,S073,1,sintagmi,La bomba addormentata nel bosco
+257,1954,S074,0,frasi,Libertà! Libertà!
+258,1954,S074,0,misto,Libertà! Libertà!
+259,1954,S074,1,parole,Libertà! Libertà!
+260,1954,S074,0,sintagmi,Libertà! Libertà!
+261,1954,S077,1,frasi,Il dittatore
+262,1954,S077,0,misto,Il dittatore
+263,1954,S077,3,parole,Il dittatore
+264,1954,S077,0,sintagmi,Il dittatore
+265,1954,S078,0,frasi,Lo jus primae noctis
+266,1954,S078,0,misto,Lo jus primae noctis
+267,1954,S078,0,parole,Lo jus primae noctis
+268,1954,S078,1,sintagmi,Lo jus primae noctis
+269,1954,S080,0,frasi,La lente d'ingrandimento
+270,1954,S080,0,misto,La lente d'ingrandimento
+271,1954,S080,1,parole,La lente d'ingrandimento
+272,1954,S080,0,sintagmi,La lente d'ingrandimento
+273,1954,S081,0,frasi,I Marziani
+274,1954,S081,0,misto,I Marziani
+275,1954,S081,1,parole,I Marziani
+276,1954,S081,1,sintagmi,I Marziani
+277,1954,S082,1,frasi,La domenica delle follie
+278,1954,S082,0,misto,La domenica delle follie
+279,1954,S082,0,parole,La domenica delle follie
+280,1954,S082,0,sintagmi,La domenica delle follie
+281,1954,S083,2,frasi,Il coniglio velenoso
+282,1954,S083,0,misto,Il coniglio velenoso
+283,1954,S083,1,parole,Il coniglio velenoso
+284,1954,S083,1,sintagmi,Il coniglio velenoso
+285,1955,S084,3,frasi,L'avventura di un fotografo
+286,1955,S084,0,misto,L'avventura di un fotografo
+287,1955,S084,1,parole,L'avventura di un fotografo
+288,1955,S084,6,sintagmi,L'avventura di un fotografo
+289,1956,S085,0,frasi,Un viaggio con le mucche
+290,1956,S085,0,misto,Un viaggio con le mucche
+291,1956,S085,0,parole,Un viaggio con le mucche
+292,1956,S085,4,sintagmi,Un viaggio con le mucche
+293,1957,S086,3,frasi,Luna e Gnac
+294,1957,S086,0,misto,Luna e Gnac
+295,1957,S086,0,parole,Luna e Gnac
+296,1957,S086,2,sintagmi,Luna e Gnac
+297,1957,S088,14,frasi,La speculazione edilizia
+298,1957,S088,2,misto,La speculazione edilizia
+299,1957,S088,12,parole,La speculazione edilizia
+300,1957,S088,20,sintagmi,La speculazione edilizia
+301,1958,S089,0,frasi,Dialogo sul satellite
+302,1958,S089,1,misto,Dialogo sul satellite
+303,1958,S089,0,parole,Dialogo sul satellite
+304,1958,S089,2,sintagmi,Dialogo sul satellite
+305,1958,S091,2,frasi,Una bella giornata di marzo
+306,1958,S091,1,misto,Una bella giornata di marzo
+307,1958,S091,0,parole,Una bella giornata di marzo
+308,1958,S091,2,sintagmi,Una bella giornata di marzo
+309,1958,S092,3,frasi,La gallina di reparto
+310,1958,S092,0,misto,La gallina di reparto
+311,1958,S092,2,parole,La gallina di reparto
+312,1958,S092,1,sintagmi,La gallina di reparto
+313,1958,S093,5,frasi,La notte dei numeri
+314,1958,S093,0,misto,La notte dei numeri
+315,1958,S093,2,parole,La notte dei numeri
+316,1958,S093,2,sintagmi,La notte dei numeri
+317,1958,S094,6,frasi,L'avventura di un lettore
+318,1958,S094,0,misto,L'avventura di un lettore
+319,1958,S094,2,parole,L'avventura di un lettore
+320,1958,S094,5,sintagmi,L'avventura di un lettore
+321,1958,S095,12,frasi,La nuvola di smog
+322,1958,S095,3,misto,La nuvola di smog
+323,1958,S095,10,parole,La nuvola di smog
+324,1958,S095,12,sintagmi,La nuvola di smog
+325,1958,S096,4,frasi,La signora Paulatim
+326,1958,S096,0,misto,La signora Paulatim
+327,1958,S096,0,parole,La signora Paulatim
+328,1958,S096,7,sintagmi,La signora Paulatim
+329,1958,S097,11,frasi,L'avventura di un viaggiatore
+330,1958,S097,0,misto,L'avventura di un viaggiatore
+331,1958,S097,2,parole,L'avventura di un viaggiatore
+332,1958,S097,4,sintagmi,L'avventura di un viaggiatore
+333,1958,S098,3,frasi,La villeggiatura in panchina
+334,1958,S098,0,misto,La villeggiatura in panchina
+335,1958,S098,1,parole,La villeggiatura in panchina
+336,1958,S098,2,sintagmi,La villeggiatura in panchina
+337,1958,S099,8,frasi,Va' così che vai bene
+338,1958,S099,0,misto,Va' così che vai bene
+339,1958,S099,0,parole,Va' così che vai bene
+340,1958,S099,4,sintagmi,Va' così che vai bene
+341,1958,S100,2,frasi,Un letto di passaggio
+342,1958,S100,0,misto,Un letto di passaggio
+343,1958,S100,2,parole,Un letto di passaggio
+344,1958,S100,1,sintagmi,Un letto di passaggio
+345,1958,S101,1,frasi,L'avventura di un miope
+346,1958,S101,1,misto,L'avventura di un miope
+347,1958,S101,1,parole,L'avventura di un miope
+348,1958,S101,3,sintagmi,L'avventura di un miope
+349,1958,S102,3,frasi,L'avventura di una moglie
+350,1958,S102,0,misto,L'avventura di una moglie
+351,1958,S102,0,parole,L'avventura di una moglie
+352,1958,S102,0,sintagmi,L'avventura di una moglie
+353,1958,S103,1,frasi,L'avventura di due sposi
+354,1958,S103,2,misto,L'avventura di due sposi
+355,1958,S103,1,parole,L'avventura di due sposi
+356,1958,S103,1,sintagmi,L'avventura di due sposi
+357,1958,S104,4,frasi,L'avventura di un poeta
+358,1958,S104,0,misto,L'avventura di un poeta
+359,1958,S104,0,parole,L'avventura di un poeta
+360,1958,S104,2,sintagmi,L'avventura di un poeta
+361,1959,S105,0,frasi,L'avventura di uno sciatore
+362,1959,S105,1,misto,L'avventura di uno sciatore
+363,1959,S105,1,parole,L'avventura di uno sciatore
+364,1959,S105,4,sintagmi,L'avventura di uno sciatore
+365,1963,S108,1,frasi,Marcovaldo al supermarket
+366,1963,S108,0,misto,Marcovaldo al supermarket
+367,1963,S108,1,parole,Marcovaldo al supermarket
+368,1963,S108,1,sintagmi,Marcovaldo al supermarket
+369,1963,S109,0,frasi,La pioggia e le foglie
+370,1963,S109,0,misto,La pioggia e le foglie
+371,1963,S109,2,parole,La pioggia e le foglie
+372,1963,S109,1,sintagmi,La pioggia e le foglie
+373,1963,S110,0,frasi,La fermata sbagliata
+374,1963,S110,1,misto,La fermata sbagliata
+375,1963,S110,2,parole,La fermata sbagliata
+376,1963,S110,1,sintagmi,La fermata sbagliata
+377,1963,S111,0,frasi,"Fumo, vento e bolle di sapone"
+378,1963,S111,0,misto,"Fumo, vento e bolle di sapone"
+379,1963,S111,3,parole,"Fumo, vento e bolle di sapone"
+380,1963,S111,0,sintagmi,"Fumo, vento e bolle di sapone"
+381,1963,S112,0,frasi,"Un sabato di sole, sabbia e sonno"
+382,1963,S112,0,misto,"Un sabato di sole, sabbia e sonno"
+383,1963,S112,1,parole,"Un sabato di sole, sabbia e sonno"
+384,1963,S112,1,sintagmi,"Un sabato di sole, sabbia e sonno"
+385,1963,S113,0,frasi,La città tutta per lui
+386,1963,S113,1,misto,La città tutta per lui
+387,1963,S113,2,parole,La città tutta per lui
+388,1963,S113,0,sintagmi,La città tutta per lui
+389,1963,S114,6,frasi,Il giardino dei gatti ostinati
+390,1963,S114,1,misto,Il giardino dei gatti ostinati
+391,1963,S114,5,parole,Il giardino dei gatti ostinati
+392,1963,S114,3,sintagmi,Il giardino dei gatti ostinati
+393,1963,S115,2,frasi,I figli di Babbo Natale
+394,1963,S115,2,misto,I figli di Babbo Natale
+395,1963,S115,0,parole,I figli di Babbo Natale
+396,1963,S115,1,sintagmi,I figli di Babbo Natale
+397,1963,S116,1,frasi,Dov'è più azzurro il fiume
+398,1963,S116,0,misto,Dov'è più azzurro il fiume
+399,1963,S116,1,parole,Dov'è più azzurro il fiume
+400,1963,S116,0,sintagmi,Dov'è più azzurro il fiume
+401,1963,S117,1,frasi,La città smarrita nella neve
+402,1963,S117,0,misto,La città smarrita nella neve
+403,1963,S117,0,parole,La città smarrita nella neve
+404,1963,S117,2,sintagmi,La città smarrita nella neve
+405,1964,S118,4,frasi,La distanza della Luna
+406,1964,S118,0,misto,La distanza della Luna
+407,1964,S118,3,parole,La distanza della Luna
+408,1964,S118,3,sintagmi,La distanza della Luna
+409,1964,S119,1,frasi,Sul far del giorno
+410,1964,S119,0,misto,Sul far del giorno
+411,1964,S119,1,parole,Sul far del giorno
+412,1964,S119,2,sintagmi,Sul far del giorno
+413,1964,S120,1,frasi,Un segno nello spazio
+414,1964,S120,0,misto,Un segno nello spazio
+415,1964,S120,1,parole,Un segno nello spazio
+416,1964,S120,1,sintagmi,Un segno nello spazio
+417,1964,S121,0,frasi,Tutto in un punto
+418,1964,S121,0,misto,Tutto in un punto
+419,1964,S121,1,parole,Tutto in un punto
+420,1964,S121,3,sintagmi,Tutto in un punto
+421,1965,S122,3,frasi,Senza colori
+422,1965,S122,0,misto,Senza colori
+423,1965,S122,1,parole,Senza colori
+424,1965,S122,0,sintagmi,Senza colori
+425,1965,S124,0,frasi,Lo zio acquatico
+426,1965,S124,0,misto,Lo zio acquatico
+427,1965,S124,1,parole,Lo zio acquatico
+428,1965,S124,2,sintagmi,Lo zio acquatico
+429,1965,S126,3,frasi,Giochi senza fine
+430,1965,S126,1,misto,Giochi senza fine
+431,1965,S126,0,parole,Giochi senza fine
+432,1965,S126,0,sintagmi,Giochi senza fine
+433,1965,S128,0,frasi,La forma dello spazio
+434,1965,S128,0,misto,La forma dello spazio
+435,1965,S128,2,parole,La forma dello spazio
+436,1965,S128,3,sintagmi,La forma dello spazio
+437,1965,S129,0,frasi,Quanto scommettiamo
+438,1965,S129,0,misto,Quanto scommettiamo
+439,1965,S129,3,parole,Quanto scommettiamo
+440,1965,S129,0,sintagmi,Quanto scommettiamo
+441,1965,S130,2,frasi,I Dinosauri
+442,1965,S130,3,misto,I Dinosauri
+443,1965,S130,4,parole,I Dinosauri
+444,1965,S130,2,sintagmi,I Dinosauri
+445,1965,S131,2,frasi,Gli anni-luce
+446,1965,S131,2,misto,Gli anni-luce
+447,1965,S131,0,parole,Gli anni-luce
+448,1965,S131,0,sintagmi,Gli anni-luce
+449,1965,S132,3,frasi,La spirale
+450,1965,S132,1,misto,La spirale
+451,1965,S132,5,parole,La spirale
+452,1965,S132,6,sintagmi,La spirale
+453,1975,S160,1,frasi,La corsa delle giraffe
+454,1975,S160,0,misto,La corsa delle giraffe
+455,1975,S160,0,parole,La corsa delle giraffe
+456,1975,S160,0,sintagmi,La corsa delle giraffe
+457,1975,S162,0,frasi,Il fischio del merlo
+458,1975,S162,0,misto,Il fischio del merlo
+459,1975,S162,0,parole,Il fischio del merlo
+460,1975,S162,1,sintagmi,Il fischio del merlo
+461,1975,S163,0,frasi,Del prendersela coi giovani
+462,1975,S163,0,misto,Del prendersela coi giovani
+463,1975,S163,2,parole,Del prendersela coi giovani
+464,1975,S163,0,sintagmi,Del prendersela coi giovani
+465,1975,S164,3,frasi,Lettura di un'onda
+466,1975,S164,0,misto,Lettura di un'onda
+467,1975,S164,1,parole,Lettura di un'onda
+468,1975,S164,0,sintagmi,Lettura di un'onda
+469,1976,S166,0,frasi,Un chilo e mezzo di grasso d'oca
+470,1976,S166,1,misto,Un chilo e mezzo di grasso d'oca
+471,1976,S166,0,parole,Un chilo e mezzo di grasso d'oca
+472,1976,S166,2,sintagmi,Un chilo e mezzo di grasso d'oca
+473,1976,S168,1,frasi,Serpenti e teschi
+474,1976,S168,0,misto,Serpenti e teschi
+475,1976,S168,3,parole,Serpenti e teschi
+476,1976,S168,0,sintagmi,Serpenti e teschi
+477,1977,S170,2,frasi,L'aiola di sabbia
+478,1977,S170,0,misto,L'aiola di sabbia
+479,1977,S170,0,parole,L'aiola di sabbia
+480,1977,S170,0,sintagmi,L'aiola di sabbia
+481,1977,S172,2,frasi,Il seno nudo
+482,1977,S172,0,misto,Il seno nudo
+483,1977,S172,0,parole,Il seno nudo
+484,1977,S172,2,sintagmi,Il seno nudo
+485,1980,S178,0,frasi,Il gorilla albino
+486,1980,S178,0,misto,Il gorilla albino
+487,1980,S178,0,parole,Il gorilla albino
+488,1980,S178,1,sintagmi,Il gorilla albino
+489,1981,S182,0,frasi,L'invasione degli storni
+490,1981,S182,1,misto,L'invasione degli storni
+491,1981,S182,1,parole,L'invasione degli storni
+492,1981,S182,0,sintagmi,L'invasione degli storni
+493,1982,S184,3,frasi,L'occhio e i pianeti
+494,1982,S184,0,misto,L'occhio e i pianeti
+495,1982,S184,1,parole,L'occhio e i pianeti
+496,1982,S184,0,sintagmi,L'occhio e i pianeti
+497,1982,S186,0,frasi,Il mondo guarda il mondo
+498,1982,S186,0,misto,Il mondo guarda il mondo
+499,1982,S186,1,parole,Il mondo guarda il mondo
+500,1982,S186,0,sintagmi,Il mondo guarda il mondo
+501,1982,S187,2,frasi,La pancia del geco
+502,1982,S187,0,misto,La pancia del geco
+503,1982,S187,1,parole,La pancia del geco
+504,1982,S187,0,sintagmi,La pancia del geco
+505,1983,S190,0,frasi,La spada del sole
+506,1983,S190,1,misto,La spada del sole
+507,1983,S190,2,parole,La spada del sole
+508,1983,S190,2,sintagmi,La spada del sole
+509,1983,S191,3,frasi,La contemplazione delle stelle
+510,1983,S191,1,misto,La contemplazione delle stelle
+511,1983,S191,0,parole,La contemplazione delle stelle
+512,1983,S191,0,sintagmi,La contemplazione delle stelle
+513,1983,S193,1,frasi,Il prato infinito
+514,1983,S193,0,misto,Il prato infinito
+515,1983,S193,0,parole,Il prato infinito
+516,1983,S193,2,sintagmi,Il prato infinito
+517,1983,S194,1,frasi,Luna di pomeriggio
+518,1983,S194,0,misto,Luna di pomeriggio
+519,1983,S194,0,parole,Luna di pomeriggio
+520,1983,S194,1,sintagmi,Luna di pomeriggio
+521,1983,S195,1,frasi,Dal terrazzo
+522,1983,S195,2,misto,Dal terrazzo
+523,1983,S195,0,parole,Dal terrazzo
+524,1983,S195,2,sintagmi,Dal terrazzo
+525,1983,S196,0,frasi,Il museo dei formaggi
+526,1983,S196,1,misto,Il museo dei formaggi
+527,1983,S196,3,parole,Il museo dei formaggi
+528,1983,S196,1,sintagmi,Il museo dei formaggi
+529,1983,S197,0,frasi,Il marmo e il sangue
+530,1983,S197,0,misto,Il marmo e il sangue
+531,1983,S197,0,parole,Il marmo e il sangue
+532,1983,S197,5,sintagmi,Il marmo e il sangue
+533,1983,S198,3,frasi,L'ordine degli squamati
+534,1983,S198,1,misto,L'ordine degli squamati
+535,1983,S198,0,parole,L'ordine degli squamati
+536,1983,S198,3,sintagmi,L'ordine degli squamati
+537,1983,S199,0,frasi,Il modello dei modelli
+538,1983,S199,0,misto,Il modello dei modelli
+539,1983,S199,0,parole,Il modello dei modelli
+540,1983,S199,2,sintagmi,Il modello dei modelli
+541,1983,S200,4,frasi,L'universo come specchio
+542,1983,S200,0,misto,L'universo come specchio
+543,1983,S200,2,parole,L'universo come specchio
+544,1983,S200,1,sintagmi,L'universo come specchio
