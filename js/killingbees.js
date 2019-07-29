@@ -2,7 +2,7 @@ let killingbees = document.getElementById("killingbees");
 
 let width = d3.selectAll("#killingbees").node().getBoundingClientRect().width,
 height = 700,
-padding = window.innerWidth * 0.08; 
+padding = window.innerWidth * 0.08;
 
     let svg = d3.select('#killingbees').append('svg')
     .attr('width', width)
@@ -32,7 +32,7 @@ padding = window.innerWidth * 0.08;
 
 
     let y0 = d3.scalePoint()
-    .domain( function(d) { 
+    .domain( function(d) {
       console.log(d.data)
       return d.data } )
 
@@ -77,34 +77,34 @@ padding = window.innerWidth * 0.08;
 
     // Parse dataset
 
-    d3.csv("data/shootings.csv", function(error, data) {
+    d3.csv("data/shootings-new.csv", function(error, data) {
       if (error) throw error;
 
-      x.domain(d3.extent(data, function(d) { 
+      x.domain(d3.extent(data, function(d) {
         d.value = parseDate(d.value);
         d.value = +d.value;
         return d.value;
       }));
 
-      // x1.domain(d3.extent(data, function(d) { 
+      // x1.domain(d3.extent(data, function(d) {
       //   d.age = +d.age;
       //   return d.age;
       // }));
 
-      // x2.domain(d3.extent(data, function(d) { 
+      // x2.domain(d3.extent(data, function(d) {
       //   d.kills = +d.kills;
       //   return d.kills;
       // }));
 
       // // console.log(JSON.stringify(data, null, "\t"));
 
-      // y.domain(d3.extent(data, function(d) { 
+      // y.domain(d3.extent(data, function(d) {
       //   d.lat = +d.lat;
       //   return d.lat; }
 
       //   ));
 
-      size.domain(d3.extent(data, function(d) { 
+      size.domain(d3.extent(data, function(d) {
 
         return d.kills; }
 
@@ -153,14 +153,14 @@ padding = window.innerWidth * 0.08;
       }))
       .force('y', d3.forceY( height / 2 ))
 
-      .force('collide', d3.forceCollide(function(d) { 
-        return size(d.kills) + 1 
+      .force('collide', d3.forceCollide(function(d) {
+        return size(d.kills) + 1
       }).iterations(1))
       // .alphaDecay(0)
       .alpha(1)
-      .on('tick', tick) 
+      .on('tick', tick)
 
-      let init_decay; 
+      let init_decay;
       init_decay = setTimeout(function(){
         console.log('init alpha decay')
         // simulation.alphaDecay(0.1);
@@ -186,12 +186,12 @@ padding = window.innerWidth * 0.08;
       .classed("info", true)
       .text(" " +d.title + ",")
       .attr("transform", "translate(0, " + 24 + ")")
-      
+
       tooltip.append("p")
       .classed("info", true)
       .text(d.kills + " " + d.health)
       .attr("transform", "translate(0, " + 12 + ")")
-      
+
 
       // tooltip.append("p")
       // .classed("info", true)
@@ -255,7 +255,7 @@ padding = window.innerWidth * 0.08;
       })
 
       d3.selectAll('.d_sel').classed('selected', false).style('background','transparent')
-      d3.select(this).classed('selected', true).style('background','#EA1515')
+      d3.select(this).classed('selected', true).style('background','#000')
 
       data_set = this.value;
 
@@ -379,7 +379,7 @@ padding = window.innerWidth * 0.08;
         }
       }))
 
-      simulation.force('collide', d3.forceCollide(function(d) { 
+      simulation.force('collide', d3.forceCollide(function(d) {
         return size(d.kills) + 1
       }).iterations(8))
 
