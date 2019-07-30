@@ -1,10 +1,10 @@
-let killingbees = document.getElementById("killingbees");
+let bees = document.getElementById("bees");
 
-let width = d3.selectAll("#killingbees").node().getBoundingClientRect().width,
+let width = d3.selectAll("#bees").node().getBoundingClientRect().width,
 height = 700,
 padding = window.innerWidth * 0.08;
 
-    let svg = d3.select('#killingbees').append('svg')
+    let svg = d3.select('#bees').append('svg')
     .attr('width', width)
     .attr('height', height)
 
@@ -18,7 +18,7 @@ padding = window.innerWidth * 0.08;
     .range(["greenyellow","deeppink","gold","aquamarine"]);
     // let colors = d3.scaleOrdinal()
     // .domain(data.map(function(d) {
-    //   return d.health
+    //   return d.type
     // })
 
     let x = d3.scaleTime()
@@ -42,21 +42,21 @@ padding = window.innerWidth * 0.08;
     let y2 = d3.scalePoint()
     .domain(["misto","frasi","sintagmi","parole"])
     .range([0 + 50, height - 50]);
-
-    let y3 = d3.scalePoint()
-    .domain(["Yes","No","Unclear","Unknown"])
-    .range([0 + 50, height - 50]);
-
-    let y4 = d3.scalePoint()
-    .domain(["Male","Female","Male/Female","Unknown"])
-    .range([0 + 50, height - 50]);
-
-    let y5 = d3.scalePoint()
-    .domain(["White","Asian","Asian American","Black","Latino","Native","Other","Unknown"])
-    .range([0 + 50, height - 50]);
+    //
+    // let y3 = d3.scalePoint()
+    // .domain(["Yes","No","Unclear","Unknown"])
+    // .range([0 + 50, height - 50]);
+    //
+    // let y4 = d3.scalePoint()
+    // .domain(["Male","Female","Male/Female","Unknown"])
+    // .range([0 + 50, height - 50]);
+    //
+    // let y5 = d3.scalePoint()
+    // .domain(["White","Asian","Asian American","Black","Latino","Native","Other","Unknown"])
+    // .range([0 + 50, height - 50]);
 
     let size = d3.scaleLinear()
-    .range([5,15]);
+    .range([5,30]);
 
     // Assi
     let killAxis = d3.axisBottom(x2).tickFormat(d3.format(".0s")).tickSize(height - 20);
@@ -67,17 +67,17 @@ padding = window.innerWidth * 0.08;
     .tickSize(height - 20);
 
     // let locationAxis = d3.axisLeft(y2).ticks().tickSize(width - window.innerWidth * 0.15).tickPadding(10);
-    let healthAxis = d3.axisLeft(y2).ticks().tickSize(width - window.innerWidth * 0.15).tickPadding(10);
+    let typeAxis = d3.axisLeft(y2).ticks().tickSize(width - window.innerWidth * 0.15).tickPadding(10);
     // let genderAxis = d3.axisLeft(y4).ticks().tickSize(width - window.innerWidth * 0.15).tickPadding(10);
     // let raceAxis = d3.axisLeft(y5).ticks().tickSize(width - window.innerWidth * 0.15).tickPadding(10);
 
     // starting visualization with:
-    let data_set = "health";
+    let data_set = "type";
     let data_setX = "value";
 
     // Parse dataset
 
-    d3.csv("data/shootings-new.csv", function(error, data) {
+    d3.csv("data/elenchi.csv", function(error, data) {
       if (error) throw error;
 
       x.domain(d3.extent(data, function(d) {
@@ -92,8 +92,8 @@ padding = window.innerWidth * 0.08;
       // }));
 
       // x2.domain(d3.extent(data, function(d) {
-      //   d.kills = +d.kills;
-      //   return d.kills;
+      //   d.count = +d.count;
+      //   return d.count;
       // }));
 
       // // console.log(JSON.stringify(data, null, "\t"));
@@ -106,7 +106,7 @@ padding = window.innerWidth * 0.08;
 
       size.domain(d3.extent(data, function(d) {
 
-        return d.kills; }
+        return +d.count; }
 
         ));
 
@@ -136,12 +136,12 @@ padding = window.innerWidth * 0.08;
       svg.selectAll('.circ')
       .data(data)
       .enter()
-      .filter(function(d) { return d.kills })
+      .filter(function(d) { return d.count })
       .append('circle').classed('circ', true)
-      .attr('r', function(d) { return size(d.kills) })
+      .attr('r', function(d) { return size(d.count) })
       .attr('cx', function(d){ return x(d.value); })
       .attr('cy', function(){ return height/2; })
-      .attr("fill", function(d) { return colors(d.health); })
+      .attr("fill", function(d) { return colors(d.type); })
       // .attr("stroke", "rgba(0,0,0,.2)")
       // .attr("stroke-width", 1)
 
@@ -154,7 +154,7 @@ padding = window.innerWidth * 0.08;
       .force('y', d3.forceY( height / 2 ))
 
       .force('collide', d3.forceCollide(function(d) {
-        return size(d.kills) + 1
+        return size(d.count) + 1
       }).iterations(1))
       // .alphaDecay(0)
       .alpha(1)
@@ -189,7 +189,7 @@ padding = window.innerWidth * 0.08;
 
       tooltip.append("p")
       .classed("info", true)
-      .text(d.kills + " " + d.health)
+      .text(d.count + " " + d.type)
       .attr("transform", "translate(0, " + 12 + ")")
 
 
@@ -205,7 +205,7 @@ padding = window.innerWidth * 0.08;
 
       // tooltip.append("p")
       // .classed("info", true)
-      // .text("mental illness: " + d.health)
+      // .text("mental illness: " + d.type)
       // .attr("transform", "translate(0, " + 46 + ")")
     })
 
@@ -218,9 +218,9 @@ padding = window.innerWidth * 0.08;
 
     // Draw UI buttons
 
-    let yButtons = d3.select('#killingbees-ui').append('div').classed('buttons', true);
+    let yButtons = d3.select('#bees-ui').append('div').classed('buttons', true);
     yButtons.append('p').text('divide by').classed("button-label", true)
-    yButtons.append('button').text('type').attr('value', 'health').classed('d_sel', true)
+    yButtons.append('button').text('type').attr('value', 'type').classed('d_sel', true)
     // yButtons.append('button').text('location type').attr('value', 'location').classed('d_sel', true)
     // yButtons.append('button').text('gender').attr('value', 'gender').classed('d_sel', true)
     // yButtons.append('button').text('race').attr('value', 'race').classed('d_sel', true)
@@ -230,7 +230,7 @@ padding = window.innerWidth * 0.08;
     // let xButtons = d3.select('#killingbees-ui').append('div').classed('buttons', true);
     // xButtons.append('p').text('place by').classed("button-label", true)
     // xButtons.append('button').text('perpetrator age').attr('value', 'age').classed('b_sel', true)
-    // xButtons.append('button').text('total victims').attr('value', 'kills').classed('b_sel', true)
+    // xButtons.append('button').text('total victims').attr('value', 'count').classed('b_sel', true)
     // xButtons.append('button').text("date").attr('value', 'value').classed('b_sel', true).style('background','#0A0101').style("color", "white")
 
     // make buttons interactive, vertical categories
@@ -261,10 +261,10 @@ padding = window.innerWidth * 0.08;
 
       console.log(data_set)
 
-      if (data_set === "health") {
+      if (data_set === "type") {
         d3.selectAll(".spaceY").text("Tipo di elenco")
         let axisSelection = d3.select(".yAxis")
-        .call(healthAxis)
+        .call(typeAxis)
         .classed("yAxis", true);
 
         axisSelection.selectAll('.tick text')
@@ -368,7 +368,7 @@ padding = window.innerWidth * 0.08;
 
       simulation.force('y', d3.forceY(function(d){
 
-        if (data_set === "health"){
+        if (data_set === "type"){
           return y2(d[data_set])
         }else if(data_set === "location"){
           return y3(d[data_set])
@@ -380,7 +380,7 @@ padding = window.innerWidth * 0.08;
       }))
 
       simulation.force('collide', d3.forceCollide(function(d) {
-        return size(d.kills) + 1
+        return size(d.count) + 1
       }).iterations(8))
 
       simulation
@@ -420,7 +420,7 @@ padding = window.innerWidth * 0.08;
       simulation.force('x', d3.forceX(function(d){
         if (data_setX === "value"){
           return x(d[data_setX])
-        }else if(data_setX === "kills"){
+        }else if(data_setX === "count"){
           return x2(d[data_setX])
         }else {
           return x1(d[data_setX])
